@@ -93,7 +93,7 @@ function gameOver() {
   if (matchcount == 8) {
     swal({
       title: "Good Job",
-      html: "Game completed in " + moves + " moves<br> Time : " + min + "mins : " + sec + "secs<br>Stars : " + dumm,
+      html: "Game completed in " + moves + " moves<br> Time : " + min + "mins : " + sec + "secs<br>" + dumm,
     }).then(() => {
       reset();
     });
